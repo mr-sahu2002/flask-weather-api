@@ -1,7 +1,7 @@
 import requests
 
 def fetch_weather_data(cities):
-    api_key = '9e67a2d9ada49bcab26b29fab1dd3dd3' 
+    api_key = 'your_api_key' 
     weather_data = []
 
     for city in cities:
